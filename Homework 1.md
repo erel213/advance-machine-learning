@@ -83,7 +83,6 @@ sequenceDiagram
 - Similarly, in the low-dimensional space, we calculate similarities between points using a t-distribution.
 
 <aside>
-💡
 
 Without the t-distribution the clusters would all clump up in the middle and be harder to see
 
@@ -100,7 +99,6 @@ In more detail:
 </aside>
 
 <aside>
-💡
 
 The symmetrized probability (pij) in t-SNE is calculated using the formula:
 $pij = \frac{(pi|j + pj|i)} {(2n)}$
